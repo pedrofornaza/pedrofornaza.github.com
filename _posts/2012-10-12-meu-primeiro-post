@@ -1,0 +1,16 @@
+---
+layout: default
+title: Primeiro Post
+---
+
+h3 Meu primeiro Post
+
+Como e de costume, todo blog tem um "primeiro post" falando sobre quem o escreve e a intençao do blog. Este e o meu. :)
+
+Meu nome e Pedro Fornaza e trabalho com desenvolvimento web a pouco tempo (cerca de 1 ano e meio). Atualmente trabalho com desenvolvimento em PHP, HTML, CSS e JS. Me interesso muito por HTTP, arquiteturas REST, OOP e outras coisas relacionadas a desenvolvimento.
+
+O intuito do blog nao e ensinar ninguem a fazer nada (talvez apareça algum tutorial eventualmente) e muito menos dizer o que e certo ou errado. Pretendo compartilhar MINHAS conclusoes no blog sobre os assuntos que estudo e prometo fazer isso de forma rapida e objetiva.
+
+Atualmente iniciei um projeto de um framework ("Init0 Framework":https://www.github.com/pedrofornaza/init0framework), quem quiser participar, comentar ou criticar, fique a vontade. Falo mais sobre ele em outra oportunidade.
+
+Por hoje e so. Voce pode me encontrar no "aboutme":http://about.me/pedrofornaza .
