@@ -1,0 +1,149 @@
+html, body {
+    border: 0;
+    font-family: "Paprika";
+    height: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: 1px solid #e1e1e1;
+    border-left: 0px;
+    border-right: 0px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-secao {
+    border-left: 5px solid #003366;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    text-shadow: 1px 1px #AAA;
+}
+
+div.centralizada {
+    height: 40px;
+    margin: 50px auto 0px;
+    width: 500px;
+}
+
+ul.tags {
+    list-style: none;
+}
+
+ul.tags li {
+    background: #003366;
+    border-radius: 5px;
+    float: left;
+    margin: 0px 10px;
+    padding: 7px;
+}
+
+
+
+/** Nav **/
+nav {
+    height: 50px;
+    margin: 0px auto;
+    position: fixed;
+    width: 500px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    background: #FFF;
+    border: 1px solid #A8A8A8;
+    border-top: 0px;
+    border-radius: 0px 0px 5px 5px;
+    float: left;
+    margin: 0px 10px;
+    padding: 7px;
+}
+
+nav ul li a {
+    color: #003366;
+    text-decoration: none;
+}
+
+
+
+/** Resumo **/
+section#Resumo {
+    background: #282828;
+    color: #C8C8C8;
+}
+
+section#Resumo h1 {
+    color: #FFF;
+    font-size: 60px;
+}
+
+section#Resumo h3 {
+    font-size: 25px;
+    padding-right: 100px;
+    text-align: right;
+}
+
+
+
+/** Sobre **/
+section#Sobre {
+    color: #202020;
+}
+
+section#Sobre h2 {
+    border-left: 5px solid #003366;
+    color: #000;
+    font-size: 40px;
+}
+
+section#Sobre p {
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    width: 800px;
+}
+
+
+
+/** Contato **/
+section#Contato {
+    background: #CCCCCC;
+    color: #202020;
+}
+
+section#Contato h2 {
+    border-left: 5px solid #003366;
+    color: #FFF;
+    font-size: 40px;
+}
+
+section#Contato ul {
+    font-size: 16px;
+    line-height: 50px;
+    list-style: none;
+    margin: 0px auto;
+    text-align: center;
+    width: 800px;
+}
+
+section#Contato ul li a {
+    color: #FFF;
+}

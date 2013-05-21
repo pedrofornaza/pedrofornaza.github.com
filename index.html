@@ -1,13 +1,49 @@
----
-layout: default
-title: Home
----
-	
-<h3>Posts:</h3>
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Pedro Fornaza - Desenvolvedor Web</title>
 
-{% for post in site.posts limit 10 %}
-    <div class="post-header">
-        <h3> <a href="{{ post.url }}">{{ post.title }}</a> </h3>
-        {{ post.content | truncate:250 | textilize }}
-    </div>
-{% endfor %}
+        <link href='http://fonts.googleapis.com/css?family=Paprika' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/general.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#Resumo">Resumo</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+        <section class="resumo" id="Resumo">
+            <h1 class="titulo-secao">Pedro Fornaza</h1>
+            <h3>Desenvolvedor de software, apaixonado pela Web.</h3>
+
+            <div class="centralizada">
+                <ul class="tags">
+                    <li>HTTP</li>
+                    <li>REST</li>
+                    <li>HTML</li>
+                    <li>JAVASCRIPT</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Sobre">
+            <h2 class="titulo-secao">Quem sou eu?</h2>
+            <p>Meu nome é Pedro Fornaza e trabalho com desenvolvimento web desde 2011. Atualmente trabalho com PHP, HTML, CSS e JS. Me interesso muito por HTTP, arquiteturas RESTful, OOP, TDD e outras coisas relacionadas a desenvolvimento.</p>
+        </section>
+
+        <section id="Contato">
+            <h2 class="titulo-secao">Onde me encontrar?</h2>
+            <ul>
+                <li>Email / Gtalk: <a href="mailto:pedro.fornaza@gmail.com">pedro.fornaza@gmail.com</a></li>
+                <li>Facebook: <a href="http://www.facebook.com/PedroFornaza">http://www.facebook.com/PedroFornaza</a></li>
+                <li>Github: <a href="http://www.github.com/pedrofornaza">http://www.github.com/pedrofornaza</a></li>
+                <li>Linkedin: <a href="http://www.linkedin.com/profile/view?id=158328876">http://www.linkedin.com/profile/view?id=158328876</a></li>
+                <li>Twitter: <a href="http://twitter.com/PedroFornaza">http://twitter.com/PedroFornaza</a></li>
+            </ul>
+        </section>
+    </body>
+</html>
